@@ -15,23 +15,6 @@ body {
   width: 100%;
 }
 
-.nav-anchor li {
-  padding: 0px 10px;
-}
-
-.nav-anchor li a {
-  font-family: "Lato", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  color: #363958 !important;
-}
-
-.nav-anchor li a:hover {
-  color: #a4bc46 !important;
-  text-decoration: underline;
-  text-transform: capitalize;
-}
-
 .banner-img {
   margin-left: 50px;
 }
@@ -93,20 +76,21 @@ img.bg-color {
   padding-right: 7px;
 }
 
-.about-bg {
+.about-bg{
   background-image: url("images/about-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.about {
+.about{
   text-align: center;
-  color: white;
+  color:white;
 }
-.about img {
-  width: 100px;
+.about img{
+  width:100px;
   height: 100px;
 }
+
 
 .contact-logo img {
   width: 100%;
@@ -121,8 +105,11 @@ img.bg-color {
   padding: 7px 20px;
 }
 
-.footer-text p {
-  padding: 10px;
-  color: white;
-  text-align: center;
-}
+
+
+  .footer-text p{
+    padding: 10px;
+    color:white;
+    text-align: center;
+    
+  }
