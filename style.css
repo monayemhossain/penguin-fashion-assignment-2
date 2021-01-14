@@ -93,6 +93,21 @@ img.bg-color {
   padding-right: 7px;
 }
 
+.about-bg {
+  background-image: url("images/about-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.about {
+  text-align: center;
+  color: white;
+}
+.about img {
+  width: 100px;
+  height: 100px;
+}
+
 .contact-logo img {
   width: 100%;
 }
@@ -106,19 +121,8 @@ img.bg-color {
   padding: 7px 20px;
 }
 
-.about-img img {
-  width: 100%;
-}
-
-.about-text {
+.footer-text p {
   padding: 10px;
   color: white;
-  background-color: #e54c2a;
+  text-align: center;
 }
-
-  .footer-text p{
-    padding: 10px;
-    color:white;
-    text-align: center;
-    
-  }
